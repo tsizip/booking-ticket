@@ -1,0 +1,36 @@
+.gls {
+  z-index: 0;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgb(10, 32, 41), transparent 100%);
+}
+
+.gls1 {
+     /* margin: 30px 0; */
+  z-index: 1;
+  height: 120vh;
+  width: 100%;
+  position: relative;
+  /* background-image: url('https://picsum.photos/700/800'); */
+  filter: blur(25px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding-bottom: 250px; */
+}
+
+.card_gls {
+  /* height: 70%; */
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%); */
+}

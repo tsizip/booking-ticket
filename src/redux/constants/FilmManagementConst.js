@@ -1,0 +1,23 @@
+export const DP_LST_FILM_TO_REDUCER = 'DP_LST_FILM_TO_REDUCER'
+export const DP_FILM_DETAIL_TO_REDUCER = 'DP_FILM_DETAIL_TO_REDUCER'
+
+
+export const SET_PHIM_DANG_CHIEU = 'SET_PHIM_DANG_CHIEU'
+export const SET_PHIM_SAP_CHIEU = 'SET_PHIM_SAP_CHIEU'
+export const SET_PHIM_DEFAULT = 'SET_PHIM_DEFAULT'
+
+
+
+export const SET_TOKEN = 'SET_TOKEN'
+
+
+export const THONG_TIN_LICH_CHIEU = 'THONG_TIN_LICH_CHIEU'
+export const PUSH_PHIM = 'PUSH_PHIM'
+export const THONG_TIN_DAT_VE = 'THONG_TIN_DAT_VE'
+export const DAT_VE_HOAN_TAT = 'DAT_VE_HOAN_TAT'
+
+
+export const ACTIVE_TAB = 'ACTIVE_TAB'
+
+
+

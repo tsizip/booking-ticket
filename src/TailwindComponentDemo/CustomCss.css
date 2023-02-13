@@ -1,0 +1,5 @@
+
+
+.content{
+     @apply container mx-auto text-2xl bg-red-900 text-white p-11 mt-4 hover:text-yellow-500 transition duration-150
+}

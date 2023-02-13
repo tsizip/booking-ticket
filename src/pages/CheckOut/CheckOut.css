@@ -1,0 +1,33 @@
+.gheVuaDat {
+  background-color: chartreuse !important;
+  
+}
+
+.ghe {
+  background-color: gray;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.gheDaDat {
+  background-color: rgb(172, 56, 56);
+  cursor: no-drop;
+}
+
+.gheVip {
+  background-color: orange;
+}
+
+.gheDangDat {
+  background-color: rgb(49, 205, 49);
+}
+.xoaGhe {
+  background-color: gray;
+}
+.btn {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-5 px-10 rounded w-full;
+}

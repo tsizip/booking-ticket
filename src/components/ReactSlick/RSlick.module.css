@@ -1,0 +1,14 @@
+.slick-prev:before, .slick-next:before {
+     color: gray;
+     font-size: 3rem;
+}
+
+.slick-prev{
+     left: -51px;
+}
+
+/* .active_btn{
+     background-color: black;
+     color: white;
+} */
+
