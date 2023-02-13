@@ -162,7 +162,7 @@ export function InfoCheckOut(props) {
                               })} </p>
                               <p>Ghế: {ve.danhSachGhe.map((ghe, index) => {
                                    // console.log('length', ve.danhSachGhe.length)
-                                   return (index + 1) % 11 == 0 ? <br /> : <span key={index} className={`px-1 text-lg text-green-800 font-bold ${index}`}>{ghe.tenGhe}</span>
+                                   return (index + 1) % 9 == 0 ? <br /> : <span key={index} className={`px-1 text-lg text-green-800 font-bold ${index}`}>{ghe.tenGhe}</span>
                               })}</p>
                          </div>
                     </div>
