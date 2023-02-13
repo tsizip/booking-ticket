@@ -52,7 +52,7 @@ export default function Login() {
                                              </g>
                                         </svg>
                                    </div>
-                                   <div className="text-2xl text-indigo-800 tracking-wide ml-2 font-semibold">CyberSoft</div>
+                                   <div className="text-2xl text-indigo-800 tracking-wide ml-2 font-semibold">Booking ticket</div>
                               </div>
                          </div>
                          <div className="mt-10 px-12 sm:px-24 md:px-48 lg:px-12 lg:mt-16 xl:px-24 xl:max-w-2xl">
@@ -70,10 +70,10 @@ export default function Login() {
                                                        Mật khẩu
                                                   </div>
                                                   <div>
-                                                       <a className="text-xs font-display font-semibold text-indigo-600 hover:text-indigo-800
+                                                       {/* <a className="text-xs font-display font-semibold text-indigo-600 hover:text-indigo-800
                                        cursor-pointer">
                                                             Quên mật khẩu?
-                                                       </a>
+                                                       </a> */}
                                                   </div>
                                              </div>
                                              <input onChange={formik.handleChange} name='matKhau' className="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type='password' placeholder="Nhập mật khẩu" />
@@ -86,9 +86,9 @@ export default function Login() {
                                              </button>
                                         </div>
                                    </div>
-                                   <div className="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
+                                   {/* <div className="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
                                         Chưa có tài khoản ? <a className="cursor-pointer text-indigo-600 hover:text-indigo-800">Đăng ký</a>
-                                   </div>
+                                   </div> */}
                               </div>
                          </div>
                     </div>

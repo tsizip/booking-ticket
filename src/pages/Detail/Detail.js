@@ -52,21 +52,21 @@ export default function Detail(props) {
      return (
           <div className='overflow-hidden' >
                <Header />
-               <div className={styleGls['gls1']} style={{ backgroundImage: `url(${filmDetail.hinhAnh})` }}>
-
-
+               {/* <div className={styleGls['gls1']}></div> */}
+               <div  className=' w-full' style={{ backgroundImage: `url(${filmDetail.hinhAnh})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', filter: 'blur(8px)', position: 'absolute', height:'155vh' }}>
                </div>
+
                <div style={{
                     top: 0,
                     left: 0,
                     right: 0,
                     bottom: 0,
                     zIndex: 10,
-                    marginTop: '110px'
-               }} className='absolute flex flex-col justify-center h-full'>
-                    <div className='flex justify-evenly'>
+                  
+               }} className='relative'>
+                    <div className=' flex justify-evenly' style={{marginTop:'100px' }}>
                          <div className='flex'>
-                              <img alt='123' width={350} src={`${filmDetail.hinhAnh}`} />
+                              <img alt='123' style={{ maxWidth: '40%', width: 300 }} src={`${filmDetail.hinhAnh}`} />
                               <div className='ml-5  text-white flex-initial w-80 flex justify-center items-left  flex-col'>
                                    <p className='font-bold text-2xl'>{filmDetail.tenPhim}</p>
                                    <p>{filmDetail.moTa}</p>
@@ -85,6 +85,7 @@ export default function Detail(props) {
                     </div>
 
                     {/* tab */}
+                    {/* <div> */}
                     <Tabs
                          tabPosition={'top'}
                          centered
@@ -95,7 +96,7 @@ export default function Detail(props) {
                          size='large'
                     >
                          <TabPane tab='Lịch chiếu' key='1'>
-                              <div className='mt-5 grid grid-cols-8 mx-auto'>
+                              <div style={{  }} className='mt-5 grid grid-cols-8 mx-auto'>
                                    <div className='col-span-6 col-start-2 text-white p-10 mx-auto bg-white container'>
                                         <Tabs tabPosition={'left'} >
                                              {filmDetail.heThongRapChieu?.map((htr, index) => {
@@ -174,6 +175,7 @@ export default function Detail(props) {
 
                          </div></TabPane>
                     </Tabs>
+                    {/* </div> */}
 
                </div>
 
